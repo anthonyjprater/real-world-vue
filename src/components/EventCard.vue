@@ -6,7 +6,7 @@
     <div class="event-card">
       <!-- Display event data -->
       <span>@ {{ event.time }} on {{ event.date }}</span>
-      <h4>{{ event.title }}</h4>
+      <h2>{{ event.title }}</h2>
     </div>
   </router-link>
 </template>
